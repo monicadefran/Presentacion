@@ -29,9 +29,9 @@
 
                                                 Apúntate a nuestros cursos online de HTML5 [link](http://www.hardcoconut.com/html5-para-plataformas-moviles)
 </script></section>
-<script src="lib/js/head.min.js">
+<script src="presentacion/lib/js/head.min.js">
 </script>
-<script src="js/reveal.min.js">
+<script src="presentacion/js/reveal.min.js">
 </script>
 <script>
 
@@ -48,13 +48,13 @@
 
                                 // Optional libraries used to extend on reveal.js
                                 dependencies: [
-                                        { src: 'lib/js/highlight.js', async: true, callback: function() { window.hljs.initHighlightingOnLoad(); } },
-                                        { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-                                        { src: 'lib/js/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                                        { src: 'lib/js/data-markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                                        { src: 'plugin/zoom-js/zoom.js', condition: function() { return !!document.body.classList; } },
+                                        { src: 'presentacion/lib/js/highlight.js', async: true, callback: function() { window.hljs.initHighlightingOnLoad(); } },
+                                        { src: 'presentacion/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                                        { src: 'presentacion/lib/js/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                                        { src: 'presentacion/lib/js/data-markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                                        { src: 'presentacion/plugin/zoom-js/zoom.js', condition: function() { return !!document.body.classList; } },
                                         { src: '/socket.io/socket.io.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } },
-                                        { src: 'plugin/speakernotes/client.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } }
+                                        { src: 'presentacion/plugin/speakernotes/client.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } }
                                 ]
                         });
 
